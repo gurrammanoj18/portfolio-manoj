@@ -1,0 +1,117 @@
+.projects-div{
+    background-color: rgb(19, 19, 18);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+.projects-bio{
+    color: white;
+}
+.projects-heading{
+    color: orangered;
+    font-size: 45px;
+}
+.project-container{
+    background-color: rgb(233, 211, 211);
+    height: 230px;
+    min-width: 600px;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    transition: transform ease 0.5s;
+}
+.project-container:hover{
+    
+    transform: scale(1.1);
+}
+
+.project-name{
+    color: orangered;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.project-skills{
+    list-style: none;
+    display: flex;
+}
+.project-info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.project-set{
+    background-color: rgb(202, 218, 174);
+    margin-left: 10px;
+    border-radius: 5px;
+    height: 30px;
+    color: orangered;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+.btn{
+    background-color: rgb(255, 105, 51);
+   
+    font-weight: bold;
+    border-radius: 5px;
+    height: 30px;
+    border-width: 0px;
+    margin-right: 10px;
+    
+}
+a{
+    text-decoration: none;
+     color: white;
+}
+.btn-div{
+    display: flex;
+    align-items: flex-end;
+}
+@media (max-width:768px){
+    .projects-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .projects-bio{
+        padding: 0px 10px;
+        font-size: 10px;
+    }
+    .project-container{
+        font-size: 10px;
+        min-width: 100px;
+        width: 80vw;
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .project-name{
+        font-size: 15px;
+    }
+    .project-skills{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap ;
+        justify-content: flex-start;
+        padding-left: 0px;
+        padding-bottom: 5px;
+    
+        font-size: 5px;
+    }
+    .projects-heading{
+        font-size: 25px;
+    }
+    
+}

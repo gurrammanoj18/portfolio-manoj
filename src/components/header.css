@@ -1,0 +1,109 @@
+.logo-heading{
+    color: rgb(222, 95, 198);
+}
+.header{
+    background-color: rgb(19, 19, 18);
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    
+    z-index: 3;
+}
+.options{
+    display: flex;
+    
+    list-style: none;
+    align-items: center;
+}
+.option{
+    display: flex;
+    font-size: 20px;
+    color: rgb(222, 95, 198);
+    padding-left: 15px;
+    transition: transform ease 0.8s;
+}
+.option:hover{
+    color: orangered;
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+.desktop-contact{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.contact-btn{
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    flex-direction: column;
+    width: 120px;
+    padding-left: 15px;
+    font-size: 20px;
+    justify-content: center;
+    align-self: center;
+    border-radius: 10px;
+    align-items: center;
+    color: white;
+}
+.contact-btn, a{
+    display: flex;
+    align-self: center;
+    align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+    color: orangered;
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+    align-self: center;
+  }
+
+  .options {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    display: flex;
+    right: 0;
+    background-color: rgb(19, 19, 18);
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0;
+    display: none;
+  }
+  .header{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+  }
+
+  .options.show {
+    display: flex;
+  }
+
+  .desktop-contact {
+    display: none;
+  }
+
+  .mobile-contact {
+    display: block;
+  }
+}
+
+/* Desktop contact button only */
+@media screen and (min-width: 769px) {
+  .mobile-contact {
+    display: none;
+    
+  }
+  
+  .menu-icon{
+    display: none;
+  }
+}
