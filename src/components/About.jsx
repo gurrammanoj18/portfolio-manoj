@@ -1,6 +1,5 @@
 import React from 'react';
 import './about.css';
-import { Fal } from 'react-icons/fa';
 
 const About = () => {
   return (
