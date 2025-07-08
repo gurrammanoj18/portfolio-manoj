@@ -24,6 +24,26 @@
     color: white;
     
 }
+.resume-btn{
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 30px;
+    border-width: 0px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px;
+    margin: 10px;
+    transition: transform ease 0.3s;
+}
+.resume-btn:hover{
+    transform: scale(1.1);
+    color: rgb(61, 4, 61);
+
+}
 span{
     color: orangered;
     text-shadow: 0 2px 4px orangered;
@@ -52,6 +72,7 @@ span{
     justify-content: center;
     width: 30vw;
 }
+
 .skill{
     height: 40px;
     display: flex;
@@ -76,6 +97,11 @@ span{
         flex-direction: column;
         
     }
+    .image-dp{
+        margin-top: 20px;
+        height: 150px;
+        width: 150px;
+    }
     .dp-div{
         width: 100vw;
     }
@@ -86,6 +112,15 @@ span{
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+    .skill{
+        height: 30px;
+    }
+    .mobile-resume{
+        display: block;
+    }
+    .resume-desk{
+        display: none;
     }
    
 }

@@ -10,7 +10,9 @@ const Home = () => {
             <p  className='descript-bio'>Hello,</p>
             <h1 className='heading-bio'>I'm <span>Gurram Manoj</span> <br/>Full Stack Developer</h1>
             <p className='descript-bio'>I am a Skilled Full-stack Developer with Experience in Developing visually appealing and user friendly Websites.</p>
-            
+             <div className='resume'>
+                    <a href='https://drive.google.com/file/d/1Cfi6PDbx38xFgrFbwu240wxUwmqnBWfu/view?usp=drivesdk ' className='resume'><button className='resume-btn'>Download resume</button></a>
+                </div>
 
         </div>
         <div className='profile-div'>
@@ -24,7 +26,7 @@ const Home = () => {
                     <li  className='skill'>UI/UX</li>
                     <li  className='skill'>Web Dev</li>
                 </ul>
-
+            
             </div>
 
         </div>

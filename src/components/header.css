@@ -48,6 +48,12 @@
     border-radius: 10px;
     align-items: center;
     color: white;
+    transition: transform ease 0.3s;
+}
+.contact-btn:hover{
+  transform: scale(1.1);
+  color: rgb(243, 179, 243);
+
 }
 .contact-btn, a{
     display: flex;
