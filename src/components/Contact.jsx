@@ -9,7 +9,7 @@ const Contact = () => {
       <h2 className='contact-heading heading'>Contact Me</h2>
       <p>Let's connect and collaborate!</p>
       <div className="icon-container">
-        <a href="https://www.linkedin.com/in/gurrammanoj" target="_blank">
+        <a href="https://www.linkedin.com/in/gurrammanoj" target="_blank" rel='noopener noreferrer'>
           <FaLinkedin className="icon linkedin" />
         </a>
         <a href="https://github.com/gurrammanoj18" target="_blank" rel="noopener noreferrer">

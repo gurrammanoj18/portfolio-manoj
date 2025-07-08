@@ -61,8 +61,8 @@ const Projects = () => {
                     <li className='project-set'>ReactJs</li>
                 </ul>
                 <div className='btn-div'>
-                    <button className='btn'><a href=''>GitHub</a></button>
-                    <button className='btn'><a href=''>Live Demo</a></button>
+                    <button className='btn'><a href='https://github.com/gurrammanoj18'>GitHub</a></button>
+                    <button className='btn'><a href='https://github.com/gurrammanoj18'>Live Demo</a></button>
                 </div>
             </div>
         </div>
