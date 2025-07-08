@@ -17,7 +17,7 @@ const Home = () => {
         </div>
         <div className='profile-div'>
             <div className='dp-div'>
-                <img src={image} className='image-dp'/>
+                <img src={image} alt='img' className='image-dp'/>
                 <h1 className='profile-heading'>Gurram Manoj</h1>
                 <p className='manoj-bio bio1'>I'm a Passionate full stack Developer with hands-on-experience with clean and scalable code</p>
                 <ul className='skills-profile'>
